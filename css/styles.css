@@ -1,8 +1,155 @@
-/* :root {
-    --temp: temp;
-} */
+:root {
+    --body-text-color: #212121;
+    --link-hover-color: #2196F3;
+    --site-logo-color: #000000;
+    --header-contacts-color: #757575;
+    --header-navigation-link-color: #212121;
+    --hero-button-background-active-color: #188CE8;
+    --project-filter-button-background: #F5F4FA;
+    --footer-physical-address-color: #FFFFFF;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
 
 body {
     font-family: Roboto, sans-serif;
-    color: #212121;
+    color: var(--body-text-color);
+}
+
+.site-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--site-logo-color);
+}
+
+.site-logo-design {
+    color: var(--link-hover-color);
+}
+
+.header-navigation-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
+    color: var(--header-navigation-link-color);
+
+}
+
+.header-navigation-email,
+.header-navigation-phone {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
+    color: var(--header-contacts-color);
+}
+
+.header-navigation-link:hover,
+.header-navigation-email:hover,
+.header-navigation-phone:hover,
+.header-navigation-link:focus,
+.header-navigation-email:focus,
+.header-navigation-phone:focus {
+    color: var(--link-hover-color);
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: var(--footer-physical-address-color);
+}
+
+.hero-button {
+    background: var(--link-hover-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    cursor: pointer;
+    color: var(--footer-physical-address-color);
+}
+
+.hero-button:active {
+    background: var(--hero-button-background-active-color);
+}
+
+.skill-title {
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.skill-text {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.company-works-title {
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.company-team-title {
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.company-worker-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+}
+
+.company-worker-position {
+    font-size: 16px;
+}
+
+.projects-filter-button {
+    background: var(--project-filter-button-background);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+.projects-filter-button:hover {
+    background: var(--link-hover-color);
+    color: var(--footer-physical-address-color);
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--header-navigation-link-color);
+}
+
+.project-title {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--header-contacts-color);
+}
+
+.footer-physical-address {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--footer-physical-address-color);
+}
+
+.footer-contact {
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    color: var(--footer-contacts-color);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--link-hover-color);
 }
