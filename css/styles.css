@@ -55,6 +55,10 @@ body {
     color: var(--link-hover-color);
 }
 
+.header-navigation-link:visited {
+    color: var(--link-hover-color);
+}
+
 .hero-title {
     font-size: 44px;
     font-weight: 900;
