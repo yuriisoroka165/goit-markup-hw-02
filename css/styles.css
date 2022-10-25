@@ -4,6 +4,7 @@
     --site-logo-color: #000000;
     --header-contacts-color: #757575;
     --header-navigation-link-color: #212121;
+    --header-current-color: #2196F3;
     --hero-button-background-active-color: #188CE8;
     --project-filter-button-background: #F5F4FA;
     --footer-physical-address-color: #FFFFFF;
@@ -55,8 +56,8 @@ body {
     color: var(--link-hover-color);
 }
 
-.header-navigation-link:visited {
-    color: var(--link-hover-color);
+.current {
+    color: var(--header-current-color);
 }
 
 .hero-title {
