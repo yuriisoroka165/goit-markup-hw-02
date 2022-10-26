@@ -10,7 +10,7 @@
     --hero-button-background-active-color: #188CE8;
     --hero-button-text-color: #FFFFFF;
     --projects-filter-button-background: #F5F4FA;
-    --projects-filter-button-hover-color: #FFFFFF;;
+    --projects-filter-button-hover-color: #FFFFFF;
     --projects-filter-button-hover-background-color: #2196F3;
     --projects-link-color: #212121;
     --projects-type-color: #757575;
@@ -20,12 +20,12 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--body-text-color);
 }
 
 .site-logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.2;
@@ -77,7 +77,7 @@ body {
 
 .hero-button {
     background: var(--hero-button-background-color);
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
@@ -121,7 +121,7 @@ body {
 
 .projects-filter-button {
     background: var(--projects-filter-button-background);
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.6;
