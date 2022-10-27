@@ -156,7 +156,8 @@ body {
 }
 
 /* hide h1 */
-.projects-title {
+.projects-title,
+.skills-title {
     position: absolute;
     width: 1px;
     height: 1px;
